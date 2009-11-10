@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual C# Express 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FieryMonkey", "FieryMonkey.csproj", "{03C316A9-C0CA-4AA7-A1BB-B1F512E5748B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{03C316A9-C0CA-4AA7-A1BB-B1F512E5748B}.Debug|x86.ActiveCfg = Debug|x86
+		{03C316A9-C0CA-4AA7-A1BB-B1F512E5748B}.Debug|x86.Build.0 = Debug|x86
+		{03C316A9-C0CA-4AA7-A1BB-B1F512E5748B}.Release|x86.ActiveCfg = Release|x86
+		{03C316A9-C0CA-4AA7-A1BB-B1F512E5748B}.Release|x86.Build.0 = Release|x86
+		{45EDABE5-659F-4B90-A5D6-8BE696508C4B}.Debug|x86.ActiveCfg = Debug|x86
+		{45EDABE5-659F-4B90-A5D6-8BE696508C4B}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
