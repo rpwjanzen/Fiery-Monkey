@@ -84,15 +84,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Fern.cs" />
-    <Compile Include="Flame.cs" />
+    <Compile Include="BaseIfs.cs" />
+    <Compile Include="Variations\Demo.cs" />
+    <Compile Include="Variations\Fern.cs" />
+    <Compile Include="IfsCalculator.cs" />
     <Compile Include="Entry.cs" />
-    <Compile Include="IFS.cs" />
+    <Compile Include="Ifs.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Program.cs" />
-    <Compile Include="Game1.cs" />
-    <Compile Include="Sierpinski.cs" />
-    <Compile Include="ToyIFS.cs" />
+    <Compile Include="IfsGame.cs" />
+    <Compile Include="Variations\Generator.cs" />
+    <Compile Include="Variations\Sierpinski.cs" />
+    <Compile Include="Variations\Variations.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Game.ico" />

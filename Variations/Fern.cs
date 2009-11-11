@@ -5,7 +5,7 @@ using System.Text;
 using Microsoft.Xna.Framework;
 
 namespace FieryMonkey {
-    class Fern : IFS {
+    class Fern : Ifs {
         public Fern() {
             Functions.Add((v) => {
                 return new Vector2(0f, 0.16f * v.Y);
@@ -32,6 +32,21 @@ namespace FieryMonkey {
                 return new Vector2(x, y);
             });
             Weights.Add(0.85f);
+
+            Iterations = 50;
+
+            MinX = -4f;
+            MaxX = 4f;
+            MinY = -1f;
+            MaxY = 11f;
+
+            // Spherical
+            //FinalTransformation = (v) => {
+            //    var rSquared = 1.0f / v.LengthSquared();
+            //    var x = rSquared * v.X * 10f;
+            //    var y = rSquared * v.Y * 10f;
+            //    return new Vector2(x, y);
+            //};
         }
     }
 }
